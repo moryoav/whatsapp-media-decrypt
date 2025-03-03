@@ -24,6 +24,7 @@ const (
 	mediaTypeVideo
 	mediaTypeAudio
 	mediaTypeDocument
+	mediaTypeSticker
 )
 
 var (
@@ -32,6 +33,7 @@ var (
 		mediaTypeVideo:    "WhatsApp Video Keys",
 		mediaTypeAudio:    "WhatsApp Audio Keys",
 		mediaTypeDocument: "WhatsApp Document Keys",
+		mediaTypeSticker:  "WhatsApp Sticker Keys",
 	}
 )
 
