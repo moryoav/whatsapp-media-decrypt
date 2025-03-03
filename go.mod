@@ -1,4 +1,4 @@
-module github.com/ddz/whatsapp-media-decrypt
+module github.com/moryoav/whatsapp-media-decrypt
 
 go 1.12
 
