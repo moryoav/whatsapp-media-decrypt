@@ -45,7 +45,7 @@ func main() {
 		flag.PrintDefaults()
 	}
 
-	mt := flag.Int("t", 0, "media `TYPE` (1 = image, 2 = video, 3 = audio, 4 = doc)")
+	mt := flag.Int("t", 0, "media `TYPE` (1 = image, 2 = video, 3 = audio, 4 = doc, 5 = sticker)")
 	outputFileName := flag.String("o", "", "write decrypted output to `FILE`")
 	flag.Parse()
 
